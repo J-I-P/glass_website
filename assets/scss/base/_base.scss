@@ -1,0 +1,65 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+//   outline: solid 2px orange; 
+}
+
+// .material-symbols-outlined {
+//   font-variation-settings:
+
+// }
+
+body {
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+ space-evenly
+.flex-column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.header-padding{
+    padding: 25px 0px;
+}
