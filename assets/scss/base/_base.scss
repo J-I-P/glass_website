@@ -13,10 +13,16 @@
 
 body {
     line-height: 1.5;
+    font-family: $font-family-base $font-eng;
 }
 
 .container {
     max-width: 1296px;
+    margin: 0 auto;
+}
+
+.container-contact {
+    max-width: 636px;
     margin: 0 auto;
 }
 
@@ -29,7 +35,7 @@ body {
 .align-items-center{
     align-items: center;
 }
- space-evenly
+
 .flex-column{
     flex-direction: column;
 }
@@ -46,6 +52,7 @@ body {
     justify-content: space-evenly;
 }
 
+
 .text-center{
     text-align: center;
 }
@@ -58,6 +65,9 @@ body {
 
 img{
     max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
 }
 
 .header-padding{

@@ -1,3 +1,275 @@
-.index-title {
-  font-size: 100px;
+.banner {
+  background-image: url("../images/home-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $title-color;
+
+  .banner-title {
+    font-size: 64px;
+    font-weight: bold;
+  }
+  
+  .banner-subtitle {
+    font-size: $font-size-h3;
+  }
+  
+  .banner-btn{
+    background-color: $primary-color;
+    color: $other-color-1;
+    font-size: $font-size-h5;
+    margin-top: 10px;
+    padding: 6px 12px;
+  }
+}
+
+.banner-wrap{
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height: 787px;
+}
+
+
+// intro
+
+
+.intro{
+  background-color: $secondary-color;
+  padding:80px 0;
+}
+
+.intro-list{
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.intro-item{
+  width:25%;
+  margin:0 12px;
+}
+
+.intro-img{
+  width: 84px;
+  margin-bottom: 27px;
+}
+
+
+.intro-title{
+  font-size: $font-size-h2;
+  font-weight: bold;
+  color: $title-color;
+  margin-bottom: 24px;
+}
+
+.intro-subtitle{
+  font-size: $font-size-h4;
+  font-weight: bold;
+  color: $title-color;
+  
+}
+
+
+
+// classic
+
+.classic{
+  padding:80px 0;
+}
+
+.classic-list{
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.classic-item{
+  width:33%;
+  margin:0 12px;
+}
+
+.classic-title{
+  font-size: $font-size-h2;
+  font-weight: bold;
+  color: $title-color;
+  margin-bottom: 48px;
+}
+
+.classic-subtitle{
+  font-size: $font-size-h2;
+  font-weight: bold;
+  color: $primary-color;
+  font-family: $font-eng;
+  font-style: italic;
+  text-align: center;
+  margin-top: 8px;
+  
+}
+
+
+
+
+// co-branding
+
+.co-branding{
+  padding:80px 0;
+  background-image: url('../images/index-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+// .co-branding-list{
+//   margin-left: -12px;
+//   margin-right: -12px;
+// }
+
+.co-branding-item{
+  width:50%;
+  // margin:0 12px;
+  background-color: $other-color-1;
+}
+
+.co-branding-title{
+  font-size: $font-size-h2;
+  font-weight: bold;
+
+  text-align: center;
+  color:$other-color-1;
+  margin-bottom: 48px;
+}
+
+.co-branding-subtitle{
+  font-size: $font-size-h2;
+  font-weight: bold;
+  margin:8px 0;
+  text-align: center;
+  color:$primary-color;
+  font-style: italic;
+  font-family: $font-eng;
+}
+
+
+
+
+
+
+//recommendation
+
+.recommendation{
+  padding:80px 0;
+}
+
+.recommendation-list{
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.recommendation-item{
+  width:25%;
+  margin:0 12px;
+}
+
+.recommendation-title{
+  font-size: $font-size-h2;
+  font-weight: bold;
+  color: $title-color;
+  margin-bottom: 48px;
+}
+
+.recommendation-subtitle{
+  font-size: $font-size-h2;
+  font-weight: bold;
+  color: $primary-color;
+  font-family: $font-eng;
+  font-style: italic;
+  text-align: center;
+  margin-top: 8px;
+  
+}
+
+.recommendation-item-content{
+  color: $other-color-2;
+  text-align: start;
+  padding: 16px;
+  height:205px;
+
+}
+
+.recommendation-p-last{
+  color: $other-color-5;
+  font-size: $font-size-small;
+  margin: auto 0 0 0;
+}
+
+.recommendation-p-name{
+  font-weight: 500;
+  margin-bottom: 8px;
+ }
+
+
+
+ //contact
+
+ .contact{
+  padding:80px 0;
+  background-color: $secondary-color;
+}
+
+.contact-list{
+  margin: -8px 0;
+}
+
+.contact-item{
+  // width:33%;
+  margin: 8px 0;
+}
+
+.contact-title{
+  font-size: $font-size-h2;
+  font-weight: bold;
+  color: $title-color;
+  margin-bottom: 48px;
+}
+
+.contact-subtitle{
+  font-size: $font-size-h5;
+  color: $other-color-2;
+  margin-bottom: 24px;
+  
+}
+
+.contact-list-label{
+  display: block;
+  margin-bottom: 8px;
+}
+
+.content-input, .opinion{
+  width: 100%;
+  // padding: 6px 12px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.opinion{
+  height: 136px;
+}
+
+.contact-content{
+  margin-bottom: 16px;
+}
+
+.contact-check{
+  display: flex;
+}
+
+.check{
+  margin-right: 4px;
+}
+
+.submit-btn {
+  margin-top: 64px;
+  background-color: $primary-color;
+  color: $other-color-1;
+  padding: 16px 176px;
+  text-align: center;
 }
