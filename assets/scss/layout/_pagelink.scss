@@ -16,3 +16,19 @@
         color: $other-color-1;
     }
 }
+
+@media (max-width: 768px) {
+
+}
+  
+  @media (max-width: 576px) {
+    .pagelink {
+        margin-bottom: 64px;
+        align-content: space-between;
+
+    }
+    .pagelink a{
+        font-size: $font-size-base;
+        padding:12px 15px;
+    }
+}

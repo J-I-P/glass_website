@@ -1,10 +1,9 @@
 .classic-nav{
     display: flex;
-
 }
 
 .classic-nav-item{
-    width: 33.3%;
+    width: 33.333%;
     position: relative;
     text-align: center;
     font-size: $font-size-h3-m;
@@ -25,5 +24,17 @@
         width: 100%;
         height: 8px;
         background-color: $primary-color;
+    }
+}
+
+@media (max-width: 768px) {
+    .classic-nav-item{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .classic-nav-item{
+        font-size: 16px;
     }
 }
