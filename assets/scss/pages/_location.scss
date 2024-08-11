@@ -1,0 +1,61 @@
+
+.location-title{
+    font-size: $font-size-h2;
+    border-left: 8px solid $other-color-10;
+    margin-top: 96px;
+    margin-bottom: 33px;
+    padding-left: 16px;
+    font-weight: $font-weight-bold;
+}
+
+.location-form{
+    margin-bottom: 40px;
+}
+
+.city-label{
+    margin-right: 16px;
+    font-size: $font-size-h4;
+}
+
+.city-select{
+    width: 304px;
+}
+
+.store-group {
+    margin: 0px -12px;
+}
+
+
+.store-item{
+    width:41.666%;
+    padding: 0 12px;
+    margin-bottom: 48px;
+}
+
+.store-map{
+    width:58.333%;
+}
+
+.store-item-title{
+    border: 0.5px solid $other-color-5;
+    font-size: $font-size-h4;
+    font-weight: $font-weight-regular;
+    padding: 8px 24px;
+}
+
+.loaction-info{
+    border: 0.5px solid $other-color-5;
+    padding: 16px;
+    font-size: $font-size-h5;
+    gap: 8px;
+}
+
+
+.store-item-btn{
+    width: 100%;
+    background-color: $other-color-2;
+    color: $other-color-1;
+    font-size: $font-size-h5-m;
+    padding: 16px 0;
+    
+}

@@ -1,0 +1,49 @@
+
+
+
+.classic-optical-product-group {
+    padding: 80px 0px;
+}
+
+.classic-optical-product{
+    margin: 0 -12px;
+
+}
+
+.classic-optical-product-title {
+    font-size: $font-size-h2-m;
+    font-weight: $font-weight-medium;
+    font-family: $font-eng;
+}
+
+.classic-optical-product-subtitle {
+    font-size: $font-size-h3-m;
+    font-weight: $font-weight-regular;
+    margin-bottom: 32px;
+}
+
+.classic-optical-product-item{
+    width:25%;
+    padding: 0 12px;
+    margin-bottom: 80px;
+}
+
+
+.classic-optical-product-color-group{
+    gap: 8px;
+}
+
+.classic-optical-product-color-1{
+    background-color: $other-color-7;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.classic-optical-product-color-2{
+    background-color: $other-color-8;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+

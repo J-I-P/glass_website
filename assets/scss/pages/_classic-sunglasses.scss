@@ -1,0 +1,49 @@
+
+
+
+.classic-sunglasses-product-group {
+    padding: 80px 0px;
+}
+
+.classic-sunglasses-product{
+    margin: 0 -12px;
+
+}
+
+.classic-sunglasses-product-title {
+    font-size: $font-size-h2-m;
+    font-weight: $font-weight-medium;
+    font-family: $font-eng;
+}
+
+.classic-sunglasses-product-subtitle {
+    font-size: $font-size-h3-m;
+    font-weight: $font-weight-regular;
+    margin-bottom: 32px;
+}
+
+.classic-sunglasses-product-item{
+    width:33%;
+    padding: 0 12px;
+    margin-bottom: 80px;
+}
+
+
+.classic-sunglasses-product-color-group{
+    gap: 8px;
+}
+
+.classic-sunglasses-product-color-1{
+    background-color: $other-color-7;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.classic-sunglasses-product-color-2{
+    background-color: $other-color-8;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+

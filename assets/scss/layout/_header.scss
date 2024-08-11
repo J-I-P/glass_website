@@ -10,7 +10,6 @@
 }
 .nav-tab{
   gap: 64px;
-
 }
 
 .nav{
@@ -18,10 +17,7 @@
 }
 
 @media (max-width: 768px) {
-  .container{
-    max-width: $tablet-container-width;
-  }
-  
+
 }
 
 
@@ -29,14 +25,14 @@
 @media (max-width: 576px) {
   .container{
     max-width: 100%;
-
+  }
 
     .logo{
       padding-left: 12px;
       padding-top:12px;
       padding-bottom:12px
     }
-  }
+
 
   .nav{
     flex-wrap: wrap;
@@ -65,7 +61,6 @@
     li>a{
       width: 100%;
       font-size: $font-size-base;
-      
     }
   }
 

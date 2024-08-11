@@ -62,11 +62,16 @@
 
 
 @media (max-width: 768px) {
-
+  .container-footer{
+    max-width: 1296px;
+    margin: 0 auto;
+  }
 }
+
 @media (max-width: 576px) {
   .container-footer{
-    // max-width: 100%;
+    max-width: 100%;
+    // max-width: $phone-container-width;
     padding: 0 16px;
   }
 
@@ -96,7 +101,7 @@
   .social-link{
     gap: 32px;
     margin-top: 24px;
-    margin-bottom: 128px;
+    margin-bottom: 56px;
   }
 
   .social-img{
