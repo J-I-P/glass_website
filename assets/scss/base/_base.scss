@@ -3,7 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-//   outline: solid 2px orange; 
+  outline: solid 2px orange; 
 }
 
 // .material-symbols-outlined {
@@ -25,14 +25,16 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        max-width: $tablet-container-width;
-        padding: 0 36px;
+        // max-width: $tablet-container-width;
+        max-width: 720px;
+        padding: 0 24px;
     }
 }
 
 @media (max-width: 576px) {
     .container {
-        max-width: $phone-container-width;
+        // max-width: $phone-container-width;
+        max-width: 540px;
         padding:0 13px;
     }
 }

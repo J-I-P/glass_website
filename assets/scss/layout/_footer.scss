@@ -1,3 +1,12 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 .footer{
   background-color: $primary-color;
   color: $other-color-1;
@@ -66,14 +75,6 @@
     max-width: 1296px;
     margin: 0 auto;
   }
-}
-
-@media (max-width: 576px) {
-  .container-footer{
-    max-width: 100%;
-    // max-width: $phone-container-width;
-    padding: 0 16px;
-  }
 
   .footer-content{
     justify-content: start;
@@ -120,6 +121,14 @@
     padding: 8px 0;
     gap: 8px;
     
+  }
+}
+
+@media (max-width: 576px) {
+  .container-footer{
+    max-width: 100%;
+    // max-width: $phone-container-width;
+    padding: 0 16px;
   }
 
 }
