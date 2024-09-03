@@ -46,8 +46,9 @@
     .qa-list {
         width: 100%;
     }
-  }
-  @media  (max-width: 576px) {
+}
+
+@media  (max-width: 576px) {
     .faq-title{
         font-size: 24px;
         border-left: 8px solid $other-color-10;
@@ -56,4 +57,4 @@
         padding-left: 16px;
         font-weight: $font-weight-bold;
     }
-  }
+}

@@ -1,19 +1,19 @@
 .header{
-  background-color: $primary-color;
-  font-size: $font-size-h5;
-  color: $other-color-1;
+	background-color: $primary-color;
+	font-size: $font-size-h5;
+	color: $other-color-1;
 
-  img{
-    width: 80px;
-  }
+	img{
+		width: 80px;
+	}
 
 }
 .nav-tab{
-  gap: 64px;
+	gap: 64px;
 }
 
 .nav{
-  padding: 25px 0px;
+	padding: 25px 0px;
 }
 
 @media (max-width: 768px) {
@@ -23,45 +23,45 @@
 
 
 @media (max-width: 576px) {
-  .container{
-    max-width: 100%;
-  }
+	.container{
+		max-width: 100%;
+	}
 
-    .logo{
-      padding-left: 12px;
-      padding-top:12px;
-      padding-bottom:12px
-    }
-
-
-  .nav{
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: start;
-    padding: 0;
-  }
+		.logo{
+		padding-left: 12px;
+		padding-top:12px;
+		padding-bottom:12px
+		}
 
 
-  // .nav>ul>li{
-  //   padding:12px 62px;
-  // }
+	.nav{
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: start;
+		padding: 0;
+	}
 
-  .nav-tab{
-    gap:0px;
-    width: 100%;
-    flex-wrap: wrap;
 
-    li{
-      width: 50%;
-      padding:12px 0px;
-      text-align: center;
-      border: 1px solid $other-color-1;
-    }
+	// .nav>ul>li{
+	//   padding:12px 62px;
+	// }
 
-    li>a{
-      width: 100%;
-      font-size: $font-size-base;
-    }
-  }
+	.nav-tab{
+		gap:0px;
+		width: 100%;
+		flex-wrap: wrap;
+
+		li{
+		width: 50%;
+		padding:12px 0px;
+		text-align: center;
+		border: 1px solid $other-color-1;
+		}
+
+		li>a{
+		width: 100%;
+		font-size: $font-size-base;
+		}
+	}
 
 }
